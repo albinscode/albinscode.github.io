@@ -1,6 +1,144 @@
 {
   "races": [
     {
+
+        "id": "agamite",
+        "titre": "Agamite",
+        "soustitre": "Race, à partir de NDP 2",
+        "synopsis": "Étant quasiment dénué d’émotions et peu sujet à l’impulsivité, ce personnage est né sans sexe biologique. Sa race a été créée pour servir l’Autarque dans les plus hautes strates administratives et est particulièrement adaptée aux travaux intellectuels minutieux tels que les textes de loi ou les études, rapports et synthèses.",
+        "phases_conseillees": [
+            "Culture : Manoir Absolu, Nessus, autres cités",
+            "Caste : Serviteur du Trône, Cénobite",
+            "Carrière : Ablégat, Guildaire, Clerc, Moine d’Aquinos"
+        ],
+        "caracteristiques": [
+            "Bonus parmi PER, SGC et VLT",
+            "Modulo 2 parmi CAR, ADR et CST",
+            "AGR NDP +4",
+            "EDU NDP +12",
+            "STA +3"
+        ],
+        "competences": [
+            "Admin. & Lois, Décorum, Furtivité, Histoire, Intendance, Perspicacité, Terres externes, Théologie, Vigilance"
+        ],
+        "langages": [
+            "Commun (parlé, lu & écrit) 18",
+            "Langue morte (parlé, lu & écrit) 14",
+            "Langue de l’Aube (parlé) 6",
+            "Deux au choix :",
+            "Malpachi (parlé, lu & écrit) 10",
+            "Xanthique (parlé, lu & écrit) 10",
+            "Tératoïde (lu & écrit) 10"
+        ],
+        "combat": [
+            "Armement civil",
+            "Un disrupteur neural (voir page 97)"
+        ],
+        "traits": [
+            "Ne peut pas utiliser Séduction et y est immunisé"
+        ],
+        "avantages": [
+            "Immuable sérénité : VIR –3 contre le choc mental",
+            "Leviers du pouvoir : STA +3 une fois par partie",
+            "Juste gouvernance : Relance Admin. & Lois ou Intendance une fois par partie"
+        ],
+        "materiel": "Des vêtements ordinaires, une besace, un nécessaire d’écriture",
+        "niveau_de_vie": "moyen"
+    },
+    {
+        "id": "automate",
+        "titre": "Automate",
+        "soustitre": "Race, à partir de NDP 2",
+        "synopsis": "Être artificiel intelligent, ce personnage a pour créateur un thaumaturge. Tout comme un humain, il doit se nourrir pour vivre, alimentant une colonie de bactéries électrogènes pour recharger sa batterie. D’apparence humaine grâce à sa pseudo-peau vivante, il doit cacher sa véritable nature car son existence parmi les citoyens est illégale.",
+        "phases_conseillees": [
+            "Culture : Nessus, Campagne, Ville Morte",
+            "Caste : Commun, Paria, Serviteur du Trône",
+            "Carrière : Espion, Thaumaturge, Passe-muraille, Estafier"
+        ],
+        "caracteristiques": [
+            "Bonus parmi toutes les caractéristiques usuelles",
+            "AGR NDP +*, EDU NDP +* (répartir 16 points dans *)",
+            "STA +2"
+        ],
+        "competences": [
+            "Bricolage, Cryptologie, Déguisement, Orientation, Perspicacité, Sciences formelles, Vigilance",
+            "Un au choix : Fulgurique ou Mécanologie",
+            "Deux compétences au choix"
+        ],
+        "langages": [
+            "Commun (parlé, lu & écrit) 10",
+            "Un au choix :",
+            "Langue morte (parlé, lu & écrit) 10",
+            "Malpachi (parlé, lu & écrit) 10",
+            "Tératoïde (lu & écrit) 10",
+            "Narquois (parlé) 10"
+        ],
+        "combat": [
+            "Armement civil"
+        ],
+        "traits": [
+            "Possède une pseudo-peau humaine",
+            "Résilience +1",
+            "En veille, ne dépense aucune Énergie. APT PER = 0",
+            "Énergie : la charge de batterie est représentée par les PVG, qui sont récupérés en mangeant du sucre raffiné. Une tasse = 15 PVG. Dépense d’un PVG/veille (1h30) d’activité ou selon les efforts effectués par le personnage"
+        ],
+        "avantages": [
+            "Venu des étoiles : possède une pseudo-peau d’Extrasolaire",
+            "Carcasse renforcée : Résilience +2",
+            "Instruments de mort : tire-billes ou dague rétractable, dissimulés dans le bras",
+            "L’Entretien : Mécanologie +ndp, Fulgurique +ndp, Adæmonition +ndp"
+        ],
+        "materiel": "Des vêtements ordinaires, une besace, une trousse d’outils. Ses documents d’identité officiels sont falsifiés (pour les détecter : Très difficile –14)",
+        "niveau_de_vie": "pauvre"
+    },
+    {
+        "id": "enfant_de_la_nuit",
+        "titre": "Enfant de la nuit",
+        "soustitre": "Race, à partir de NDP 2",
+        "synopsis": "De son très ancien peuple, l’Enfant de la nuit est l’héritier d’une existence secrète centrée sur l’entretien de fragments d’un monde oublié et garde le souvenir d’un cataclysme causé par ses ancêtres. Venu de contrées reculées de forêt, de savane, de montagne ou de désert, ce personnage, être fluet aux yeux dorés, a rejoint Nessus.",
+        "phases_conseillees": [
+            "Culture : Tribal, Sauvage, Nomade",
+            "Caste : Autochtone, Paria, Commun",
+            "Carrière : Chasseur-guerrier, Thaumaturge, Aventurier, Artisan"
+        ],
+        "caracteristiques": [
+            "Bonus parmi ADR et PER",
+            "Modulo 3 en CAR",
+            "AGR NDP +6",
+            "ED U NDP +12",
+            "STA +3"
+        ],
+        "competences": [
+            "Bricolage, Conduite (Monture), Furtivité, Histoire, Perspicacité, Survie, Vigilance",
+            "Un au choix : Bibliothèque ou Cryptologie",
+            "Un au choix : Faune ou Flore",
+            "Deux au choix : Arquémie, Fulgurique, Physique, Sciences formelles ou Stellartech"
+        ],
+        "langages": [
+            "Commun (parlé, lu & écrit) 14",
+            "Langue morte (parlé, lu & écrit) 6",
+            "Un au choix",
+            "Malpachi (parlé, lu & écrit) 10",
+            "Tératoïde (lu & écrit) 6"
+        ],
+        "combat": [
+            "Armement autochtone",
+            "Une arme stellaire de catégorie A ou B"
+        ],
+        "traits": [
+            "Nyctalope",
+            "Biorythme nocturne nécessitant 8 veilles (12 h) de sommeil",
+            "Art (Chant) +ndp"
+        ],
+        "avantages": [
+            "Rayon de Lune : Initiative +2",
+            "Éclipse de Lune : Furtivité +3×ndp (dans son biome natal)",
+            "Croissant de Lune : CAR –1, ADR +2"
+        ],
+        "materiel": "Des vêtements ordinaires, une besace, un pendentif en cristal",
+        "niveau_de_vie": "moyen"
+    },
+    {
         "id": "paracas",
         "titre": "Paracas",
         "soustitre": "Race, à partir de NDP 2",
