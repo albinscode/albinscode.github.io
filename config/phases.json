@@ -1,0 +1,183 @@
+{
+  "races": [
+    {
+        "id": "paracas",
+        "titre": "Paracas",
+        "soustitre": "Race, à partir de NDP 2",
+        "synopsis": "Individu au crâne allongé, à la peau bronzé et aux cheveux roux, le Paracas fait partie de ces races humaines d'origine inconnue qui scellèrent autrefois un pacte avec une culture extrasolaire et survécurent aux millénaires. De son peuple étrange, sensible et paisible, le personnage possède l'amour de l'art, de la philosophie et des sciences.",
+        "phases_conseillees": [
+            "Culture: Tribal, Nessus, Campagne, Nomade",
+            "Caste: Autochtone, Commun",
+            "Carriere: Thaumaturge, Artisan, Dilettante, Saronide"
+        ],
+        "caracteristiques": [
+            "Bonus parmi ADR, SGC et VLT",
+            "Modulo 1 parmi CAR et CST",
+            "AGR NDP +3",
+            "EDU NDP +12",
+            "STA +3"
+        ],
+        "competences": [
+            "Bibliothèque, Commerce, Décorum, Folklore, Histoire, Jeu, Perspicacite, Vigilance",
+            "Un Artisanat & Métier au choix",
+            "Un au choix : Faune ou Flore",
+            "Un au choix : Art (Dessin), Art (Mosaïque), Art (Musique), Art (Peinture), Art (Poésie), Art (Rhétorique) ou Art (Sculpture)",
+            "Une Thaumaturgie au choix : Arquémie, Bioscience, Génétique, Mécanologie ou Médecine"
+        ],
+        "langages": [
+            "Commun (parlé, lu, écrit) 14",
+            "Langue morte (parlé, lu, écrit) 10",
+            "Un au choix : Malpachi (parlé) 6 ou Xanthique (parlé) 6"
+        ],
+        "combat": [
+            "Armement civil", "disrupteur neuronal"
+        ],
+        "traits": [
+            "Relance une Art une fois par partie",
+            "STA +2 envers les artistes ou amateurs d'art humains"
+        ],
+        "avantages": [
+            "Sceau du firmament: peut être aidé, une fois par partie, par un aquastor d'origine extrasolaire",
+            "Le Mirifique: ATT +1",
+            "L'Esthète : Un Art +NDP, un artisanat & Métier + NDP, Commerce +NDP"
+        ],
+        "materiel": "Des vêtements ordinaires, une besace, une trousse d'instruments pour un art",
+        "niveau_de_vie": "pauvre"
+    }
+  ],
+  "cultures": [
+    {
+        "id": "kejiaren",
+        "titre": "Kejiaren",
+        "soustitre": "Culture, à partir de NDP 1",
+        "synopsis": "Cité de forteresses de terre circulaires sises en bordure de la jungle d’Ouroboros, Kejiaren a donné à ce personnage une grande curiosité pour les autres cultures. Doté de traits fins aux yeux en amande, d’une peau hâlée et de cheveux noirs, il a quitté la protection des murs de sa forteresse natale pour découvrir le tumulte bigarré de Nessus.",
+        "phases_conseillees": [
+            "Race : Humain",
+            "Caste : Commun, Autochtone, Optimate, Exulte, Armiger",
+            "Carrière : Scion, Espion, Explorateur, Milicien"
+        ],
+        "caracteristiques": [
+            "Bonus parmi ADR, SGC et ATT",
+            "Modulo 1 en CAR",
+            "AGR NDP +6",
+            "EDU NDP +7",
+            "STA +2"
+        ],
+        "competences": [
+            "Connaissance (Kejiaren), Décorum, Folklore, Histoire, Perspicacité, Stratégie, Terres externes, Vigilance",
+            "Un au choix : Furtivité ou Jeu",
+            "Un au choix : Conduite (Attelage) ou Flore"
+        ],
+        "langages": [
+            "Commun (parlé, lu & écrit) 10",
+            "Malpachi (parlé) 6",
+            "Xanthique (parlé, lu & écrit) 6"
+        ],
+        "combat": [
+            "Armement civil"
+        ],
+        "traits": [
+            "Compétence d’arbalète +NDP"
+        ],
+        "avantages": [
+            "Le Sapeur : Orientation +NDP, Bricolage +NDP, Furtivité +NDP",
+            "L’Artilleur : acquiert la compétence « Artillerie » (SGC) +3×NDP",
+            "Le Tirailleur : compétence d’arbalète +NDP, Vigilance +NDP, Esquive +NDP"
+        ],
+        "materiel": "Une boîte de bois exotique, un souvenir familial",
+        "niveau_de_vie": "modeste"
+    }
+  ],
+  "castes": [
+    {
+        "id": "cenobite",
+        "titre": "Cénobite",
+        "soustitre": "Caste, à partir de NDP 1",
+        "synopsis": "Évoluant dans les interstices de la société, le paria a choisi ou a hérité de la condition de hors-caste. Libre des obligations qui reviennent aux citoyens ordinaires, il est néanmoins susceptible de subir les rigueurs de la loi autarcique : le paria n’a aucun droit. Et c’est malgré ce sort difficile qu’il existe et que, parfois même, il prospère.",
+        "phases_conseillees": [
+            "Race : Humain, Malakar, Pasht, Homme-mastiff, Automate",
+            "Culture : Athara, Glaume, Ville Morte, Campagne, Nomade",
+            "Carrière : Écorcheur, Bandit, Main des Gueux, Charlatan, Mercenaire, Survivant"
+        ],
+        "caracteristiques": [
+            "Bonus parmi ADR et PER",
+            "Modulo 1 en CST",
+            "AGR NDP +5",
+            "EDU NDP +5",
+            "STA +0"
+        ],
+        "competences": [
+            "Commerce, Connaissance (pègre), Furtivité, Jeu, Orientation, Survie, Vigilance",
+            "Un au choix : Bricolage ou Falsification",
+            "Un au choix : Effraction ou Escamotage",
+            "Un au choix : Intimidation ou Tromperie"
+        ],
+        "langages": [
+            "Commun (parlé) 10",
+            "Malpachi (parlé) 6",
+            "Narquois (parlé) 6"
+        ],
+        "combat": [
+            "Armement civil",
+            "Armement post-apocalyptique"
+        ],
+        "traits": [
+            "Relance Vigilance une fois par partie"
+        ],
+        "avantages": [
+            "Queue-de-rat : possède un « enfant-rat », mendiant professionnel infirme qui lui rapporte NDP asimi par lune",
+            "Le Vagabond : DPL +2",
+            "Le Rhapsode : Art (Chant) +NDP, Art (Musique) +NDP, Art (Danse) +NDP",
+            "Le Bransqueteur. Racket de NDP commerces, chacun rapportant un asimi par lune"
+        ],
+        "materiel": "Une chandelle, une pèlerine usée, un bol en bois et une cuillère, une tasse en fer blanc, un jeton pour les thermes, un mètre de ficelle",
+        "niveau_de_vie": "pauvre"
+    }
+  ],
+  "carrieres": [
+    {
+        "id": "moine_d_aquinos",
+        "titre": "Moine d'Aquinos",
+        "soustitre": "Carrière, à partir de NDP 2",
+        "synopsis": "Ce personnage a choisi de suivre la voie du dieu de la Vérité. Membre d’un ordre mystique prestigieux qui poursuit les nécromants, les criminels et les corrompus partout où ils se trouvent, le moine d’Aquinos privilégie l’effort, la rigueur et l’exactitude au cours de ses enquêtes. « Séparer le grain de l’ivraie » est la devise de son ordre inquisitorial.",
+        "phases_conseillees": [
+            "Race : Humain",
+            "Culture : Nessus, Manoir Absolu, autres cités",
+            "Caste : Cénobite"
+        ],
+        "caracteristiques": [
+            "Bonus parmi SGC et VLT",
+            "AGR NDP +8",
+            "EDU NDP +12",
+            "STA +4"
+        ],
+        "competences": [
+            "Admin. & Lois, Bibliothèque, Conduite (Monture) Connaissance (pègre), Enquête, Folklore, Fouille, Perspicacité, Théologie",
+            "Un au choix : Arquémie ou Bioscience",
+            "Un au choix : Falsification ou Persuasion"
+        ],
+        "langages": [
+            "Commun (parlé, lu & écrit) 18",
+            "Lange morte (parlé, lu & écrit) 14"
+        ],
+        "combat": [
+            "Armement civil",
+            "Armement culturel : fléau de justice"
+        ],
+        "traits": [
+            "Son sacerdoce lui interdit de mentir",
+            "Relance Enquête une fois par partie"
+        ],
+        "avantages": [
+            "Le Regard d’Aquinos : Enquête +NDP, Fouille +NDP, une Thaumaturgie au choix parmi Arquémie, Bioscience, Génétique, Médecine, Occultation ou Sciences formelles +NDP",
+            "La Pensée d’Aquinos : Enquête +NDP, Perspicacité +NDP, Connaissance (pègre) +NDP",
+            "La Volonté d’Aquinos : Intimidation +2×NDP, Perspicacité +NDP",
+            "La Colère d’Aquinos : compétence de fléau de justice +2×NDP, possession de cette arme, Esquive +NDP",
+            "Le Flair d’Aquinos : Bibliothèque +2×NDP, Intendance +NDP"
+        ],
+        "materiel": "Des documents officiels et un sceau, une bague sigillaire, un nécessaire de criminalistique (matériel de police scientifique), l’uniforme de son ordre, une lampe fulgurique, un petit codex législatif, un nécessaire d’écriture, une paire de manacles",
+        "niveau_de_vie": "modeste"
+
+    }
+  ]
+}
